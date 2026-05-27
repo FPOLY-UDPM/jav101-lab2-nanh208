@@ -16,7 +16,6 @@ public class SharedServlet extends HttpServlet {
         req.setAttribute("message", "Welcome to FPT Polytechnic!");
         req.setAttribute("now", new Date());
         
-        // Lưu ý: Đường dẫn này phải trỏ đúng đến vị trí file page.jsp trong thư mục webapp của bạn
         req.getRequestDispatcher("/bai_1/page.jsp").forward(req, resp);
     }
 }
