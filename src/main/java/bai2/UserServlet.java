@@ -1,4 +1,4 @@
-package bai1;
+package bai2;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -22,6 +22,6 @@ public class UserServlet extends HttpServlet {
         map.put("country", "Việt Nam");
         
         req.setAttribute("user", map);
-        req.getRequestDispatcher("/bai_1/page.jsp").forward(req, resp);
+        req.getRequestDispatcher("/bai_2/user.jsp").forward(req, resp);
     }
 }

@@ -16,6 +16,6 @@ public class SharedServlet extends HttpServlet {
         req.setAttribute("message", "Welcome to FPT Polytechnic!");
         req.setAttribute("now", new Date());
         
-        req.getRequestDispatcher("/bai_1/page.jsp").forward(req, resp);
+        req.getRequestDispatcher("/bai_1/shared.jsp").forward(req, resp);
     }
 }
