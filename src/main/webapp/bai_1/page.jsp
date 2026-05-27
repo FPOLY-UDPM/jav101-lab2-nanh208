@@ -8,10 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Bài 1</title>
 </head>
 <body>
+
 <h1>${message}</h1>
+
 <h2>${now.date}</h2>
 </body>
 </html>
